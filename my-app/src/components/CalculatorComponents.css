@@ -1,0 +1,80 @@
+
+  .calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .calc-wrapper {
+    width: 400px;
+    height: 600px;
+  }
+  .eachrow {
+    display: flex;
+    width: 100%;
+  }
+  .button {
+    background-color: #110c24;
+    border: none;
+    width: 20%;
+    color: white;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button-operator {
+    background-color:	#fed603;
+    border: none;
+    width: 20%;
+    color: black;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button-equal {
+    background-color:	seagreen;
+    border: none;
+    width: 20%;
+    color: black;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button-clear {
+    background-color: #110c24;
+    border: none;
+    width: 83.3%;
+    color: white;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

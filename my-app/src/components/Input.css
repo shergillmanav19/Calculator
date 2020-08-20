@@ -1,0 +1,22 @@
+.input {
+    position: absolute;
+    height: 10vh;
+    display: flexbox;
+    width: 24%;
+    top:72px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4em;
+    background-color: #000000;
+    color:whitesmoke;
+    margin-right: 63px;
+
+  }
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 100%;
+}
